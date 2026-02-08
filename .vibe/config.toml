@@ -1,0 +1,13 @@
+# Enable specific skills
+# enabled_skills = ["feature-dev"]
+
+# Disable specific skills
+# disabled_skills = ["experimental-*"]
+
+system_prompt_id = "project-instructions.md"
+
+[[mcp_servers]]
+name = "context7"
+transport = "http"
+url = "https://mcp.context7.com/mcp"
+headers = { "CONTEXT7_API_KEY" = "ctx7sk-4e00ce10-94f3-4802-a1c0-79a8cdf1a2b8" }
