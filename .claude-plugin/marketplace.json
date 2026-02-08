@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agent-skill-converter-copilot",
+  "owner": {
+    "name": "agent-skill-converter"
+  },
+  "metadata": {
+    "description": "GitHub Copilot-compatible skills and agents converted from Claude Code plugins"
+  },
+  "plugins": [
+    {
+      "name": "copilot-skills",
+      "source": "./out/copilot",
+      "description": "Comprehensive feature development workflow with specialized agents for codebase exploration, architecture design, and quality review",
+      "commands": ["./skills/"],
+      "agents": ["./agents/"],
+      "strict": false
+    }
+  ]
+}
